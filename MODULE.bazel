@@ -6,6 +6,7 @@ module(
 )
 
 bazel_dep(name = "protobuf", version = "31.1")
+bazel_dep(name = "rules_cc", version = "0.2.17")
 
 # Hedron's Compile Commands Extractor for Bazel
 # https://github.com/hedronvision/bazel-compile-commands-extractor
